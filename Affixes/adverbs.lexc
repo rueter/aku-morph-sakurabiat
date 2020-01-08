@@ -1,0 +1,19 @@
+!! Adverb inflection
+!  --------------------
+!! The Sakirabiá language adverbs
+
+LEXICON ADV-MANNER_
++Manner: K ;
+
+LEXICON ADV-PARENTHETIC_
++Parenthetic: K ;
+
+LEXICON ADV-SPAT_
++Spat: K ;
+
+LEXICON ADV-TEMP_
++Temp: K ;
+
+
+! vim: set ft=xfst-lexc:
+

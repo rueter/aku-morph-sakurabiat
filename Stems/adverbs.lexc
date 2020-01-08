@@ -1,0 +1,18 @@
+!! Adverbs
+!  ----------
+!! Adverbs in the Sakirabiá language describe things.
+
+
+LEXICON Adverbs
+arẽp+Adv:arẽp ADV-PARENTHETIC_ "and then" ;
+eke+Adv:eke ADV-SPAT_ "here" ;
+kaat+Adv:kaa%{tr%} ADV-TEMP_ "then" ;
+kaarẽp+Adv:kaarẽp ADV-PARENTHETIC_ "and then" ;
+ke+Adv:ke ADV-MANNER_ "like that" ;
+kũrep+Adv:kũrep ADV-TEMP_ "today" ;
+oẽp+Adv:oẽp ADV-TEMP_ "already" ;
+poret+Adv:pore%{tr%} ADV-TEMP_ "then" ;
+yẽ+Adv:yẽ ADV-SPAT_ "there, far from speaker" ;
+yẽrõt+Adv:yẽrõ%{tr%} ADV-SPAT_ "there, far from speaker and hearer" ;
+
+! vim: set ft=xfst-lexc:

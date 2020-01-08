@@ -1,0 +1,23 @@
+!! Adjectives
+!  ----------
+!! Adjectives in the Sakirabiá language describe things.
+!! they follow the head of the NP and take the oblique markers we call case (perhaps elsewere adpositions)
+
+LEXICON Adjectives
+akop+A:ako%{pb%} Cases "hot/quente" ;
+aso+A:aso Cases "big/" ;
+ikũup+A:ikũu%{pb%}  Cases "sweet/doce" ;
+ipaak:ipaa%{kg%} Cases "white/branco" ;
+ipekõy+A:ipekõy Cases "sour/azedo" ;
+poot+A:poo%{tr%}  Cases "old/velho" ;
+perek+A:pere%{kg%} Cases "long/comprida" ;
+
+puuk+A:puu%{kg%} Cases "black/" ;
+same+A:same Cases "beautiful/" ;
+sĩĩt+A:sĩĩ%{tr%} Cases "small" ;
+
+
+ebõ+Det:ebõ Cases "same/mesmo" ;
+no+Det:no Cases "other" ;
+
+! vim: set ft=xfst-lexc:

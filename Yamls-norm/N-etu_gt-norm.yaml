@@ -1,0 +1,48 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - etu: # Noun  'eng basket, pt ' - partial paradigm
+# 
+     etu+N+Sg+Nom+PxSg1: oetu # my basket
+     etu+N+Sg+Nom+PxSg2: eetu # your(sg) basket
+     etu+N+Sg+Nom+PxSg3: ietu # his/her basket
+     etu+N+Sg+Nom+PxSg3c: seetu # his/her basket
+     etu+N+Sg+Nom+PxPl12: kietu # our basket
+     etu+N+Sg+Nom+PxPl1: oseetu # our basket
+     etu+N+Sg+Nom+PxPl2: eyaretu # your(pl) basket
+     etu+N+Sg+Nom+PxPl3: teyaretu # their basket
+     etu+N+Sg+Nom+PxPl3c: seteyaretu # their basket
+# 
+     etu+N+Sg+Abl+PxSg1: oetueri # my basket
+     etu+N+Sg+Abl+PxSg2: eetueri # your(sg) basket
+     etu+N+Sg+Abl+PxSg3: ietueri # his/her basket
+     etu+N+Sg+Abl+PxSg3c: seetueri # his/her basket
+     etu+N+Sg+Abl+PxPl12: kietueri # our basket
+     etu+N+Sg+Abl+PxPl1: oseetueri # our basket
+     etu+N+Sg+Abl+PxPl2: eyaretueri # your(pl) basket
+     etu+N+Sg+Abl+PxPl3: teyaretueri # their basket
+     etu+N+Sg+Abl+PxPl3c: seteyaretueri # their basket
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+!! Nouns
+!  -----
+!! Nouns in the Sakirabiá language are things.
+
+LEXICON Nouns
+ameko+N:ameko Cases "jaguar/onça, cachorro" ;
+asisi+N:asisi Cases "corn, maize/milho" ;
+ek+N:te%{kg%}    Cases  "(with Px) house" ;
+ek+N:e%{kg%}    Cases  "(without Px) house" ;
+eni+N:eni Cases "network/rede" ;
+etu+N:etu  Cases "basket" ;
+kotkup+N:kotku%{pb%} Cases "neck/pescoço" ;
+kubẽpo+N:kubẽpo Cases "vine/cipó" ;
+kup+N:ku%{pb%} Cases "pole/pau" ;
+kuptit+N:kupti%{tr%} Cases "bush/mato" ;
+met+N:me%{tr%} Cases "husband" ;
+opo+N:opo Cases "hand" ;
+otat+N:ota%{tr%} Cases "fire/fogo" ;
+pera+N:pera Cases "macaw/arara" ;
+pisa+N:pisa    Cases  "liver" ;
+tak+N:ta%{kg%} Cases "daughter" ;
+tangepit+N:tangepi%{tr%} Cases "grandchild/neto, neta" ;
+top+N:top Cases "father/pai" ;
+
+aayaso+N:aayaso Cases "lazy monkey/macaco preguiça" ;
+abi+N:abi Cases "father/pai" ;
+asoap+N:asoa%{pb%} Cases "rain/chuva" ;
+iniik+N:inii%{kg%} Cases "smoke/fumaça" ;
+koa+N:koa Cases "parot/papagaio" ;
+korakora+N:korakora Cases "chicken/galinha" ;
+kuninga+N:kuninga Cases "scorpion/escorpião" ;
+kwato+N:kwato Cases "alligator/jacaré" ;
+kwa'õõt+N:kwa'õõ%{tr%} Cases "fox, vixen/raposa" ;
+kwi+N:kwi Cases "axe/machado" ;
+mepit+N:mepi%{tr%} Cases "offsping/filhot" ;
+ngwẽrep+N:ngwẽrep Cases "end/acabar" ;
+pãrare+N:pãrare Cases "sieve/peneira" ;
+piit+N:pii%{tr%} Cases "coati/quati" ;
+poga+N:poga Cases "/jaboti" ;
+sarap+N:sara%{pb%} Cases "eagle/araia" ;
+tabisãra+N:tabisãra Cases "boss/chefe; cacique" ;
+tuero+N:tuero Cases "/chicha" ;
+ua+N:ua Cases "pond/lago" ;
+ueko+N:ueko Cases "vulture/urubu" ;
+uku+N:uku Cases "water/agua" ;
+ukwaay+N:ukwaay Cases "tapir/anta" ;
+yãy+N:yãy Cases "tooth/dente" ;
+
+
+! vim: set ft=xfst-lexc:

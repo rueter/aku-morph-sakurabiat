@@ -1,0 +1,30 @@
+!! Noun inflection
+!  ---------------
+!! The Sakirabiá language nouns inflect in cases.
+
+LEXICON Cases
++Nom:     PX-MARKING_OR_NOT   ;
++Abl:%^WG%>%{eV%}ri    PX-MARKING_OR_NOT   ;
++Com:%^WG%>%{eØ%}sẽp    PX-MARKING_OR_NOT   ;
++Dat:%^WG%>%{bmØ%}%{õo%}    PX-MARKING_OR_NOT   ;
++Loc:%^WG%>%{eØ%}se    PX-MARKING_OR_NOT   ;
++Coll+Nom:%^WG%>iat    PX-MARKING_OR_NOT   ;
+!#:0   Nouns   ;
+
+LEXICON PX-MARKING_OR_NOT
+@D.PERS-NUM@ K ;
+ PX-MARKING ;
+
+LEXICON PX-MARKING
+@R.PERS-NUM.SG1@+PxSg1:@R.PERS-NUM.SG1@ K ;
+@R.PERS-NUM.SG2@+PxSg2:@R.PERS-NUM.SG2@ K ;
+@R.PERS-NUM.SG3@+PxSg3:@R.PERS-NUM.SG3@ K ; 
+@R.PERS-NUM.SG3c@+PxSg3c:@R.PERS-NUM.SG3c@ K ;
+@R.PERS-NUM.PL12@+PxPl12:@R.PERS-NUM.PL12@ K ;
+@R.PERS-NUM.PL1@+PxPl1:@R.PERS-NUM.PL1@ K ;
+@R.PERS-NUM.PL2@+PxPl2:@R.PERS-NUM.PL2@ K ;
+@R.PERS-NUM.PL3@+PxPl3:@R.PERS-NUM.PL3@ K ; 
+@R.PERS-NUM.PL3c@+PxPl3c:@R.PERS-NUM.PL3c@ K ;
+
+! vim: set ft=xfst-lexc:
+

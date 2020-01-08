@@ -1,0 +1,83 @@
+!! =================================== !
+!! The Sakirabiá morphophonological/twolc rules file !
+!! =================================== !
+
+Alphabet
+ a b c d e f g h i j k l m n o p q r s t u v w x y z
+ ã ẽ ĩ õ ũ
+ á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ý ç
+
+ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+ Ã Ẽ Ĩ Õ Ũ
+ Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ý Ç
+
+ ' ! the apostrophe is a glotal stop marker
+
+!! Archiconsonants
+%{pb%}:p !
+%{pb%}:b
+%{tr%}:t
+%{tr%}:r
+%{kg%}:k
+%{kg%}:g
+%{bmØ%}:b
+%{bmØ%}:m
+%{bmØ%}:0
+%{õo%}:õ
+%{õo%}:o
+
+%{eV%}:e
+%{eØ%}:e
+%{eØ%}:0
+
+! triggers
+%^WG:0
+
+! Literal quotes and angles must be escaped (cf morpheme boundaries further down):
+ »7     ! »
+ «7     ! «
+ %[%>%] ! >
+ %[%<%] ! <
+
+
+ %>
+ %<
+ #
+ «
+ »
+
+  ;
+
+Sets
+
+ Vow = a e i o u y ã ẽ ĩ õ ũ ; 
+ Cns = b c d f g h j k l m n p q r s t v w x z ;
+ 
+Rules
+
+!"Vowel lengthening at morpheme boundary"
+!Vx:Vy <=> Vy %^WG: %> _ ;
+!     where Vx in (%{eV%} %{eV%} %{eV%} %{eV%} %{eV%} %{eV%} %{eV%} %{eV%} %{eV%} %{eV%} )
+!           Vy in (   a      e      i      o      u      ã      ẽ      ĩ      õ      ũ   ) matched ;
+ 
+" %{eV%}:o"
+ %{eV%}:o <=> o %^WG: %> _ ;
+!!
+
+"Weaken stem-final stop when followed by morpheme on-set vowel"
+Cx:Cy <=> _ %^WG:0 [ %> | %< ];
+     where Cx in (%{pb%} %{tr%} %{kg%})
+           Cy in (   b      r      g ) matched ;
+
+!! tek+N+Sg+Ill+PxSg1
+!!€ o%<te%{kg%}%^WG%>%{bmØ%}%{õo%}
+!!€ o%<teg0%>0õ
+
+"%{eØ%}:0 loss following stem-final vowel"
+ %{eØ%}:0 <=> Vow %^WG:0 %> _ ;
+!! 
+
+
+!!TESTS
+!echo 'o < o p o ^WG:0 > %{eV%}:o r i' | hfst-pair-test src/phonology/skf-phon.compose.hfst
+!echo 'opo+N+Sg+Abl+PxSg1' | hfst-lookup src/morphology/lexicon.hfst
