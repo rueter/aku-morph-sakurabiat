@@ -33,7 +33,8 @@ This repository can also be cited as:
 
 
 # Acknowledgements
-
+Group for the Study of Indigenous Languages and Cultures of the Amazon Graduate Program of Linguistic and Literary Institute of Letters and Communication Federal University of Pará, Prof. Dr. Sidney da Silva Facundes for organization.
+University of Helsinki, Digital Humanities for travel expenses.
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
